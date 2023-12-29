@@ -3,17 +3,20 @@ import BaseHead from "../components/BaseHead.astro";
 ---
 
 <html
-  lang="en"
-  class="scroll-smooth  selection:bg-cyan-600 selection:text-white no-touchevents hydrated">
+  lang="es"
+  class="scroll-smooth selection:bg-red-600 selection:text-white no-touchevents hydrated"
+>
   <head>
     <BaseHead />
-  </head>
-<style> .discord { background-color: #1C1C1E; user-select: none; }</style>
+    <style>
+      .discord {
+        background-color: #1c1c1e;
+        user-select: none;
+      }
+    </style></head
+  >
+
   <body class="discord flex flex-col min-h-screen">
     <slot />
-
-
   </body>
 </html>
-
-
